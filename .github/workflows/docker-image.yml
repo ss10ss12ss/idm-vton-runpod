@@ -1,12 +1,14 @@
-name: build-catvton-worker
+name: build-idm-worker
 
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - "runpod_catvton_worker/**"
-      - ".github/workflows/build-catvton-worker.yml"
+      - "Dockerfile"
+      - "handler.py"
+      - "requirements.txt"
+      - ".github/workflows/docker-image.yml"
 
 jobs:
   docker:
