@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ss10s12ss/idm-vton-runpod:latest
+          tags: ss10ss12ss/idm-vton-runpod:latest
